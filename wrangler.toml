@@ -1,0 +1,11 @@
+name = "question"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[placement]
+mode = "smart"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html", "**/*.css", "**/*.client.js"]
+fallthrough = true
